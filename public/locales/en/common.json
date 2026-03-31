@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "headline": "Your Journey, Our Responsibility — Across All of India",
+    "subheadline": "Friendly Drivers | Spotless Cabs | Guide-Like Expertise | All-India Coverage"
+  },
+  "cta": {
+    "call": "Call Now",
+    "whatsapp": "WhatsApp Us",
+    "getQuote": "Get My Free Quote on WhatsApp"
+  },
+  "form": {
+    "title": "Plan Your Dream Trip — Know Every Rupee Before You Travel",
+    "submit": "Get My Free Quote on WhatsApp",
+    "microCopy": "Free quote. 30-min response. Zero spam.",
+    "success": "Inquiry sent! We respond within 30 minutes.",
+    "loading": "Preparing your inquiry..."
+  },
+  "trust": {
+    "badge": "Zero Hidden Charges Guarantee",
+    "headline": "Real People. Real Journeys. Real Reviews.",
+    "callbackBadge": "Talk to us \u2014 we\u2019re always listening"
+  },
+  "value": {
+    "allIndia": "All-India Permit",
+    "allIndiaDesc": "Travel anywhere, no boundaries",
+    "friendly": "Friendly Staff",
+    "friendlyDesc": "Polite, calm, and composed always",
+    "spotless": "Spotless Vehicles",
+    "spotlessDesc": "Hygiene-first, inspected every trip",
+    "guide": "Driver as Guide",
+    "guideDesc": "Local expertise for every destination",
+    "budget": "Budget Planning",
+    "budgetDesc": "Know your costs before you go"
+  },
+  "pricing": {
+    "headline": "Popular Routes — Starting Fares at a Glance",
+    "disclaimer": "Indicative ranges only. Request your free quote for exact pricing.",
+    "cta": "Get Your Exact Quote"
+  },
+  "footer": {
+    "tagline": "Because every journey has a story — and we want yours to be perfect.",
+    "trustRow": "Verified Drivers | Transparent Billing | 24x7 Support | All-India Permit"
+  }
+}

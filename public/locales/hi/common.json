@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "headline": "Aapka Safar, Hamari Zimmedari — Poore India Mein",
+    "subheadline": "Milansar Driver | Saaf-Suthari Gaadi | Guide Jaisi Jaankari | Poore Bharat Mein Seva"
+  },
+  "cta": {
+    "call": "Abhi Call Karein",
+    "whatsapp": "WhatsApp Par Poochein",
+    "getQuote": "WhatsApp Par Quote Maangein"
+  },
+  "form": {
+    "title": "Free Quote Paaye WhatsApp Par",
+    "submit": "WhatsApp Par Quote Maangein",
+    "microCopy": "Bilkul Free. 30 Minute Mein Reply. Koi Spam Nahi.",
+    "success": "Aapki inquiry bhej di gayi! 30 minute mein reply aayega.",
+    "loading": "Aapki inquiry tayyar ho rahi hai..."
+  },
+  "trust": {
+    "badge": "Koi Chhupa Hua Charge Nahi — Guarantee",
+    "headline": "Asli Log. Asli Safar. Asli Reviews.",
+    "callbackBadge": "Humse baat karein \u2014 hum hamesha sun rahe hain"
+  },
+  "value": {
+    "allIndia": "All-India Permit",
+    "allIndiaDesc": "Kahin bhi jaayein, koi rok nahi",
+    "friendly": "Milansar Staff",
+    "friendlyDesc": "Hamesha polite, shant aur sabhya",
+    "spotless": "Saaf-Suthari Gaadi",
+    "spotlessDesc": "Har trip se pehle safai aur jaanch",
+    "guide": "Driver Bhi Guide",
+    "guideDesc": "Har jagah ki local jaankari",
+    "budget": "Budget Pehle Janiye",
+    "budgetDesc": "Safar se pehle poora kharcha pata ho"
+  },
+  "pricing": {
+    "headline": "Popular Routes — Kiraye Ki Ek Jhalak",
+    "disclaimer": "Yeh anumaan hain. Sahi kiray ke liye free quote maangein.",
+    "cta": "Apna Sahi Quote Paayein"
+  },
+  "footer": {
+    "tagline": "Kyunki har safar mein ek kahani hoti hai — aur hum chahte hain aapki kahani perfect ho.",
+    "trustRow": "Verified Drivers | Transparent Billing | 24x7 Support | All-India Permit"
+  }
+}
