@@ -1,11 +1,13 @@
 import type { FC } from 'react';
 import { CALLBACK_BADGE_TEXT } from '@/lib/constants';
 
-interface CallbackBadgeProps {}
+interface CallbackBadgeProps {
+  className?: string;
+}
 
-const CallbackBadge: FC<CallbackBadgeProps> = () => {
+const CallbackBadge: FC<CallbackBadgeProps> = ({ className = '' }) => {
   return (
-    <div className="inline-flex items-center gap-2 bg-green-50 border border-green-200 rounded-full px-4 py-2">
+    <div className={`inline-flex items-center gap-2 bg-green-50 border border-green-200 rounded-full px-4 py-2 ${className}`}>
       <span className="relative flex h-3 w-3">
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
         <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />

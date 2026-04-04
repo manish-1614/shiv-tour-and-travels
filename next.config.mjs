@@ -6,7 +6,6 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/shiv-tour-and-travels',
-  assetPrefix: '/shiv-tour-and-travels/',
 };
 
 export default nextConfig;
