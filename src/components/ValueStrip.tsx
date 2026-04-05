@@ -88,7 +88,7 @@ const ValueStrip: FC<ValueStripProps> = () => {
                 onMouseLeave={() => setHoveredIndex(null)}
                 className={`flex flex-col items-center text-center p-4 sm:p-6 bg-white rounded-xl shadow-sm 
                           hover:shadow-lg transition-all duration-300 transform 
-                          ${isHovered ? 'scale-105' : ''} 
+                          ${isHovered ? 'scale-105 z-10' : ''} 
                           ${i === values.length - 1 ? 'col-span-2 sm:col-span-1' : ''}`}
               >
                 <div className="mb-4">
@@ -104,11 +104,16 @@ const ValueStrip: FC<ValueStripProps> = () => {
                 <h3 className="font-heading font-semibold text-brand-blue mb-2">
                   {v.headline}
                 </h3>
-                <p className="text-sm text-gray-600">{v.description}</p>
+                <p className="text-sm text-gray-600 mb-4">{v.description}</p>
                 {v.tooltip && (
-                  <div className={`mt-3 text-xs text-gray-500 ${isHovered ? 'text-brand-blue' : 'text-gray-400'} 
-                            whitespace-nowrap`}>
-                    <span role="img" aria-label="info">ℹ️</span> {v.tooltip}
+                  <div className={`mt-auto pt-4 text-[10px] sm:text-xs leading-relaxed ${isHovered ? 'text-brand-blue font-medium' : 'text-gray-400'} 
+                            flex items-start justify-center gap-1.5`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="12" y1="16" x2="12" y2="12" />
+                      <line x1="12" y1="8" x2="12.01" y2="8" />
+                    </svg>
+                    <span>{v.tooltip}</span>
                   </div>
                 )}
               </div>
