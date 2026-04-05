@@ -68,6 +68,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
         >
           <source src={assets.video} type="video/webm" />
           {/* Fallback to image if video doesn't load/not supported */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src={assets.poster} 
             alt="Shiv Tour cab traveling through scenic roads in India" 
@@ -88,7 +89,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
 
           {/* Hero Headline */}
           <h1 className="font-heading text-4xl sm:text-6xl lg:text-6xl font-bold text-white leading-[1.1] sm:leading-[1.1] mb-6 animate-fade-in drop-shadow-2xl">
-            We Don't Just Drive You There — We Make the <span className="text-brand-saffron">Journey Worth It.</span>
+            We Don&apos;t Just Drive You There — We Make the <span className="text-brand-saffron">Journey Worth It.</span>
           </h1>
           
           {/* Animated Quotes */}
@@ -96,7 +97,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
             <p 
               className={`text-xl sm:text-3xl text-white/90 font-medium italic transition-opacity duration-500 ease-in-out drop-shadow-md ${fade ? 'opacity-100' : 'opacity-0'}`}
             >
-              "{quotes[currentQuote]}"
+              &quot;{quotes[currentQuote]}&quot;
             </p>
           </div>
           
