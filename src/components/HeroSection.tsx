@@ -44,8 +44,8 @@ const HeroSection: FC<HeroSectionProps> = () => {
           <source src="/videos/hero-background.mp4" type="video/mp4" />
           {/* Fallback to image if video not available */}
           <img 
-            src="/images/fleet/hero-cab.webp" 
-            alt="Shiv Tour and Travels cab ready for your journey across India" 
+            src="/shiv-tour-and-travels/images/car/scenic-mountain-road-trip-desktop.webp" 
+            alt="Premium Shiv Tour cab traveling through scenic mountain roads in India" 
             className="w-full h-full object-cover"
           />
         </video>

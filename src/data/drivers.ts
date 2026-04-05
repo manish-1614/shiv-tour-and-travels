@@ -3,7 +3,7 @@ import type { Driver, Review } from '@/types/driver';
 export const driversData: Driver[] = [
   {
     name: 'Rajesh Kumar',
-    photo: '/images/drivers/driver-1.webp',
+    photo: '/shiv-tour-and-travels/images/driver/smiling-man-mountains-desktop.webp',
     experience: 12,
     states: ['Rajasthan', 'Himachal Pradesh', 'Uttarakhand', 'Delhi NCR'],
     specialty: 'Himachal hill routes',
@@ -11,19 +11,11 @@ export const driversData: Driver[] = [
   },
   {
     name: 'Sunil Sharma',
-    photo: '/images/drivers/driver-2.webp',
+    photo: '/shiv-tour-and-travels/images/driver/smiling-man-indian-landmark-desktop.webp',
     experience: 8,
     states: ['Uttar Pradesh', 'Bihar', 'Jharkhand', 'Madhya Pradesh'],
     specialty: 'Temple circuits & pilgrimage routes',
     languages: ['Hindi', 'Bhojpuri'],
-  },
-  {
-    name: 'Vikram Singh',
-    photo: '/images/drivers/driver-3.webp',
-    experience: 15,
-    states: ['Maharashtra', 'Gujarat', 'Rajasthan', 'Goa'],
-    specialty: 'Western India long-distance tours',
-    languages: ['Hindi', 'English', 'Marathi'],
   },
 ];
 

@@ -14,10 +14,10 @@ const trustBadges = [
 ];
 
 const galleryImages = [
-  { src: '/images/fleet/gallery-1.webp', alt: 'Clean sedan interior before a trip' },
-  { src: '/images/fleet/gallery-2.webp', alt: 'Shiv Tour and Travels SUV on a highway' },
-  { src: '/images/fleet/gallery-3.webp', alt: 'Driver greeting a customer family' },
-  { src: '/images/fleet/gallery-4.webp', alt: 'Cab parked at a scenic mountain viewpoint' },
+  { src: '/shiv-tour-and-travels/images/interior/clean-car-interior-amenities-desktop.webp', alt: 'Spotlessly clean car interior with amenities' },
+  { src: '/shiv-tour-and-travels/images/landmark/taj-mahal-highway-drive-desktop.webp', alt: 'Driving on a modern highway towards Agra' },
+  { src: '/shiv-tour-and-travels/images/driver/smiling-man-indian-landmark-desktop.webp', alt: 'Friendly professional driver at a heritage site' },
+  { src: '/shiv-tour-and-travels/images/tour/scenic-mountain-lake-tour-desktop.webp', alt: 'Scenic mountain lake destination' },
 ];
 
 interface TrustSectionProps {}
