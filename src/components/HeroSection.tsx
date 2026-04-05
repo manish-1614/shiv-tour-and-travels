@@ -40,7 +40,14 @@ const HeroSection: FC<HeroSectionProps> = () => {
     <section className="relative min-h-[75vh] sm:min-h-[85vh] overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0">
-        <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          poster="/shiv-tour-and-travels/images/car/scenic-mountain-road-trip-desktop.webp"
+          className="w-full h-full object-cover"
+        >
           <source src="/videos/hero-background.mp4" type="video/mp4" />
           {/* Fallback to image if video not available */}
           <img 
