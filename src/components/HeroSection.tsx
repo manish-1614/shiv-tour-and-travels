@@ -17,11 +17,10 @@ const HeroSection: FC<HeroSectionProps> = () => {
   const [currentQuote, setCurrentQuote] = useState(0);
   const [fade, setFade] = useState(true);
 
-  // Asset paths (using base path prefix)
-  const basePath = '/shiv-tour-and-travels'; // Explicitly defined for reliability
+  // Asset paths (root-relative for custom domain hosting)
   const assets = {
-    video: `${basePath}/videos/hero-background.webm`,
-    poster: `${basePath}/images/car/scenic-mountain-road-trip-desktop.webp`
+    video: '/videos/hero-background.webm',
+    poster: '/images/car/scenic-mountain-road-trip-desktop.webp'
   };
 
   useEffect(() => {
