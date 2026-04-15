@@ -14,10 +14,10 @@ const trustBadges = [
 ];
 
 const galleryImages = [
-  { src: '/shiv-tour-and-travels/images/interior/clean-car-interior-amenities-desktop.webp', alt: 'Spotlessly clean car interior with amenities' },
-  { src: '/shiv-tour-and-travels/images/landmark/taj-mahal-highway-drive-desktop.webp', alt: 'Driving on a modern highway towards Agra' },
-  { src: '/shiv-tour-and-travels/images/driver/smiling-man-indian-landmark-desktop.webp', alt: 'Friendly professional driver at a heritage site' },
-  { src: '/shiv-tour-and-travels/images/tour/scenic-mountain-lake-tour-desktop.webp', alt: 'Scenic mountain lake destination' },
+  { src: '/images/interior/clean-car-interior-amenities-desktop.webp', alt: 'Spotlessly clean car interior with amenities' },
+  { src: '/images/landmark/taj-mahal-highway-drive-desktop.webp', alt: 'Driving on a modern highway towards Agra' },
+  { src: '/images/driver/smiling-man-indian-landmark-desktop.webp', alt: 'Friendly professional driver at a heritage site' },
+  { src: '/images/tour/scenic-mountain-lake-tour-desktop.webp', alt: 'Scenic mountain lake destination' },
 ];
 
 interface TrustSectionProps {}

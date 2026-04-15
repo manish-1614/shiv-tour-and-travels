@@ -12,7 +12,7 @@ export interface ResponsiveImage {
 }
 
 const createImageUrl = (category: string, name: string, size: 'desktop' | 'tablet' | 'mobile' | 'thumbnail') => {
-  return `/shiv-tour-and-travels/images/${category}/${name}-${size}.webp`;
+  return `/images/${category}/${name}-${size}.webp`;
 };
 
 const imageSet = (category: string, name: string, alt: string): ResponsiveImage => ({
